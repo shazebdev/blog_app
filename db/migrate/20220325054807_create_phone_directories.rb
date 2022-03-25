@@ -2,7 +2,7 @@ class CreatePhoneDirectories < ActiveRecord::Migration[7.0]
   def change
     create_table :phone_directories do |t|
       t.string :name
-      t.string :phone
+      t.numeric :phone
       t.string :email
 
       t.timestamps

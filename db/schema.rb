@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2022_03_25_054807) do
   create_table "phone_directories", force: :cascade do |t|
     t.string "name"
-    t.string "phone"
+    t.decimal "phone"
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

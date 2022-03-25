@@ -1,2 +1,3 @@
 class PhoneDirectory < ApplicationRecord
+
 end

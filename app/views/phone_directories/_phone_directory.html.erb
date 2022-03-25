@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="card-body">
+    <div id="<%= dom_id phone_directory %>">
+      <p>
+        <span class="badge bg-success">Name</span>
+        <%= phone_directory.name %>
+      </p>
+
+      <p>
+
+        <div class="list">
+          <span class="badge bg-success">Phone</span>
+          <a href="tel:<%= phone_directory.phone %>"><%= phone_directory.phone %></a>
+        </div>
+      </p>
+
+      <p>
+        <span class="badge bg-success">Email</span>
+        <%= phone_directory.email %>
+      </p>
+
+    </div>
+
+  </div>
+</div>

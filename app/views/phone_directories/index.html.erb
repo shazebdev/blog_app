@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Phone directories</h1>
+
+<div id="phone_directories">
+  <% @phone_directories.each do |phone_directory| %>
+    <%= render phone_directory %>
+    <p>
+      <%= link_to "Show this phone directory", phone_directory, class:'btn btn-info'%>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New phone directory", new_phone_directory_path, class:'btn btn-success'%>
